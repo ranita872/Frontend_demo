@@ -1,33 +1,42 @@
-title: Next.js Authentication Page
+# 🛡️ **Next.js Authentication Page**
 
-description: A simple and secure authentication system using Next.js with login, signup, and protected route features.
+A simple and secure authentication system using **Next.js** with login, signup, and protected route features.
 
-features:
-  - User Login and Signup
-  - JWT-based Authentication (or NextAuth support)
-  - Form Validation using React Hook Form and Zod
-  - Tailwind CSS UI
-  - MongoDB for user data storage
-  - Protected Routes and Session Handling
+---
 
-tech_stack:
-  frontend:
-    - Next.js
-    - Tailwind CSS
-    - React Hook Form
-    - Zod
-  backend:
-    - API Routes in Next.js
-    - MongoDB
-    - JWT or NextAuth (optional)
+## 🔑 **Features**
 
-setup_instructions:
-  - Clone the repository
-  - Run: npm install
-  - Create a .env.local file with:
-      - MONGODB_URI=your_mongodb_connection_string
-      - JWT_SECRET=your_jwt_secret
-  - Run the app: npm run dev
+- 🔐 User Login and Signup
+- 🧾 JWT-based Authentication (or NextAuth support)
+- ✅ Form Validation using **React Hook Form** and **Zod**
+- 🎨 Styled with **Tailwind CSS**
+- 🗃️ MongoDB for user data storage
+- 🛡️ Protected Routes and Session Handling
+
+---
+
+## 🧰 **Tech Stack**
+
+### 🖥️ Frontend
+- Next.js
+- Tailwind CSS
+- React Hook Form
+- Zod
+
+### 🔧 Backend
+- API Routes in Next.js
+- MongoDB
+- JWT or NextAuth (optional)
+
+---
+
+## ⚙️ **Setup Instructions**
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/nextjs-auth-page.git
+   cd nextjs-auth-page
+
 
 customization:
   - Optional: Integrate OAuth providers with NextAuth
