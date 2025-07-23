@@ -1,37 +1,40 @@
- UI Preview
-Clean, card-style login form
+title: Next.js Authentication Page
 
-Responsive layout (mobile-first)
+description: A simple and secure authentication system using Next.js with login, signup, and protected route features.
 
-Soft green tones with white background
+features:
+  - User Login and Signup
+  - JWT-based Authentication (or NextAuth support)
+  - Form Validation using React Hook Form and Zod
+  - Tailwind CSS UI
+  - MongoDB for user data storage
+  - Protected Routes and Session Handling
 
-Form validation with loading states
+tech_stack:
+  frontend:
+    - Next.js
+    - Tailwind CSS
+    - React Hook Form
+    - Zod
+  backend:
+    - API Routes in Next.js
+    - MongoDB
+    - JWT or NextAuth (optional)
 
-Toasts for success and error messages
+setup_instructions:
+  - Clone the repository
+  - Run: npm install
+  - Create a .env.local file with:
+      - MONGODB_URI=your_mongodb_connection_string
+      - JWT_SECRET=your_jwt_secret
+  - Run the app: npm run dev
 
-✨ Key Features
-📲 Phone-based login with OTP
+customization:
+  - Optional: Integrate OAuth providers with NextAuth
+  - Optional: Add forgot password or email verification
+  - UI built with Tailwind CSS – easily customizable
 
-✅ OTP verification
-
-📦 Axios-based API calls
-
-💅 Tailwind CSS styling
-
-🔐 Protected routes (WIP)
-
-🔐 Next Steps (Optional Enhancements)
-⏱ Resend OTP feature
-
-🔒 JWT or session storage after OTP verification
-
-☁️ Production SMS service (e.g., Twilio)
-
-⚠️ Rate limiting and OTP expiry
-
-📄 License
-MIT License – free for personal and commercial use.
-
+license: MIT
 👨‍💻 Author
 Made with ❤️ by Ranita
 
