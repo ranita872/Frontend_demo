@@ -1,3 +1,0 @@
-[submodule "otp-auth"]
-	path = otp-auth
-	url = https://github.com/ranita872/otp-auth.git
