@@ -34,8 +34,11 @@ A simple and secure authentication system using **Next.js** with login, signup, 
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/nextjs-auth-page.git
-   cd nextjs-auth-page
+   git clone https://github.com/ranita872/Frontend_demo.git
+   npx create-next-app@latest otp-auth --experimental-app --typescript --tailwind
+   cd otp-auth
+   npm install axios react-hot-toast
+   npm run dev
 
 
 customization:
